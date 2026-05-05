@@ -1,0 +1,31 @@
+//Learning about the enums :
+enum Weekday {
+    //all the possible case need to be mentioned 
+    case Monday
+    case Tuesday
+    case Wednesday
+    case Thursday
+    case Friday
+}
+
+
+// another way of writing the enum :
+enum weekDay{
+    case Monday , Tuesday , Wednesday
+}
+
+var day = Weekday.Monday; 
+print(type(of: day)); // we are storing the case say as String then this 'day' is fixed 
+// we can't assign the day a integer or decimal understand ...
+
+//for instance :
+// day = 2; error: cannot assign value of type 'Int' to type 'Weekday'
+//.        day = 2;
+//.        ^
+// print(day);
+
+//we can say :
+
+day = .Tuesday
+day = .Friday
+print(day);

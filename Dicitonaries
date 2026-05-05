@@ -1,0 +1,29 @@
+//learning the dictionaries :
+
+let myPersonalDetails = [
+  "name" : "Sajal Prajapati",
+  "place" : "Kashipur",
+  "DOB" : "15.09.2003"
+] ;
+
+
+if let name = myPersonalDetails["name"]{
+    print(name);
+} else {
+    print("No value in your name variable ");
+}
+
+
+//heterogenous mixture in the dictionaries :
+
+let hasGraduated = [
+  "Eric":false,
+  "Maeve":true,
+  "Otis":true
+]
+
+let olympics = [ 
+  2012 : "London",
+  2016 : "Rio De Janeior",
+  2021 : "Tokyo"
+]

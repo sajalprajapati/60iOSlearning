@@ -1,0 +1,14 @@
+//learning about the sets :
+/*
+these have muc like array that don't remember the order the member are added plus there is no duplicates allowed understand .
+*/
+
+let actors = Set([
+ "Denzel Washington",
+ "Tom Cruise",
+ "Nicolas Cage",
+ "Samuel l Jackson"
+]);
+
+print(actors);
+//here when you print the actors output will be in any order doesn't matter .

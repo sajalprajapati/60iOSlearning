@@ -1,0 +1,33 @@
+//understanding how to write if-else statements :
+
+let answer : String = "Sajal";
+
+if answer == "Sajal"{
+    print(answer)
+} else {
+    print("There is no name ");
+}
+
+let answerWrapping : String? = "Sajal Prajapati";
+
+if let answerWrapSuccessful  = answerWrapping  {
+    print(answerWrapSuccessful)
+} else {
+    print("There is no value at all");
+}
+
+enum TransportOption {
+    case airplane,helicopter,bicycle,car ,scooter
+}
+
+let transport = TransportOption.airplane
+
+if transport == .airplane || transport == .helicopter{
+    print("Let's fly");
+} else if transport == .bicycle{
+    print("I hpe there's a bike path")
+} else if transport == .car {
+    print("Time to get stuck in traffic")
+} else {
+    print("I am going to hire a scooter now !")
+}

@@ -1,0 +1,48 @@
+//learning about the switch case :
+enum Weather {
+    case sun,rain,wind,snow,unknown
+}
+
+let forecast = Weather.sun;
+
+switch forecast  {
+    case .sun:
+         print("It should be a nice day");
+    
+    case .rain:
+         print("Pack an umbrella");
+    
+    case .wind:
+         print("Wear Something warm");
+         
+    case .snow:
+        print("School is cancelled ");
+    
+    
+    case .unknown:
+        print("Our forecast generator is broken !")
+    
+}
+
+
+let number = 2;
+switch number {
+    case 23 :
+      print("You are fucked ");
+    
+    case 22 : 
+      print("you are about to be fucked ");
+      
+    case 24 : 
+      print("these just being fucked to death");
+      
+    default :
+     print("everybody is fucked ");
+}
+
+
+
+//learning about the ternary operator :
+let age: Int = 18;
+let answer = age >= 18 ? "Yes! You can vote" : "No ! You don't wait ";
+print(answer);

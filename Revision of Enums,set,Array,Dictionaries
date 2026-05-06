@@ -1,0 +1,50 @@
+//Revising the arrays :
+var demoArray = Array<Int>();
+demoArray.append(1);
+demoArray.append(2);
+demoArray.append(3);
+
+print((" the value of array we have declared is \(demoArray)")); 
+
+demoArray.append(contentsOf : [ 4,5,6]);
+
+print((" the value of array we have again declared and created is \(demoArray)"));
+
+
+
+//We are learning about the dictionaries :
+//since array we use store the specific order only thus we create dictionaries :
+
+var heights = [String : Int]();
+heights["Sajal"] = 29;
+heights["Rahul"] = 30;
+
+print("the value we are printing are of dictionaries : \(heights)");
+
+var heightsValueDemo = [
+ "Name" : "Sajal",
+ "Class" : "15",
+ "School" : "AVL"
+]
+
+print("the name of student is \(heightsValueDemo["Name"] ?? "") studying in the class \(heightsValueDemo["Class"] ?? "") in \(heightsValueDemo["School"] ?? "")")
+
+
+//We are learning the sets :
+
+var names = Set<String>();
+names.insert("Sajal");
+names.insert("Nikhil");
+
+
+
+//learning the annotations :
+var cities: [String] = [];
+
+//learnign the enums :
+enum ShivalikName {
+    case Anurag , Sidu , Nikhil
+}
+
+
+print(ShivalikName.Anurag);
